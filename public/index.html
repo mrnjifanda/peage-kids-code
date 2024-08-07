@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/libs/qrcode.min.js"></script>
+    <script src="/assets/js/libs/socket.io.min.js"></script>
+</head>
+<body>
+  <h1>Web Application</h1>
+
+  <!-- Spinner -->
+  <h4>Spinner</h4>
+  <div class="spinner"></div>
+
+  <!-- Dots -->
+  <h4>Dots</h4>
+  <div class="dots-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <div class="">
+    <button id="sendButton">Envoyer un message</button>
+    <div id="messages"></div>
+  </div>
+
+  <div class="" style="margin-top: 10px;">
+    <button id="onButton">ON</button>
+    <button id="offButton">OFF</button>
+    <div id="qrcode"></div>
+    <div id="qrcode-test"></div>
+  </div>
+
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>
